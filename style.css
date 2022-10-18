@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* - Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%) */
+
+
+body{
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    padding: 40px;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    
+    
+}
+
+
+
+.img{
+    /* height: 100vh; */
+    /* width: 55%; */
+    
+    
+}
+
+h1{
+    margin-bottom: 30px;
+    min-width: 10px;
+
+}
+
+.content{
+    
+    padding: 40px;
+    
+    color: white;
+   
+}
+
+
+footer{
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    
+}
+
+li{
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+li:hover{
+    margin-right: 10px;
+    border: 1px solid hsl(300, 69%, 71%);
+    border-radius: 100%;
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
+
+i:hover{
+    color: hsl(300, 69%, 71%);
+    
+}
+ 
+
+.btn:hover{
+    border: none;
+    padding:15px 55px ;
+    border-radius: 30px;
+    color: white;
+    margin-top:20px;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px  rgba(0, 0, 0, 0.323);
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    padding:15px 55px ;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    margin-top:20px;
+    background-color:w ;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px  rgba(0, 0, 0, 0.323);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+
